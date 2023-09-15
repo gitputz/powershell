@@ -1,0 +1,4 @@
+With the PSReadline module installed,
+Set-PSReadLineOption -editmode vi
+
+May apply only to the current session.
