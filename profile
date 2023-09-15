@@ -12,6 +12,10 @@ function prompt {
   ) + 'PS ' + $(Get-Location) +
     $(if ($NestedPromptLevel -ge 1) { '>>' }) + '> '
 }
+
+# For Vi-style navigation in Powershell cli
+Set-PSReadLineOption -EditMode Vi
+
 # Cursor change in response to vi mode change in EditMode Vi
 function OnViModeChange {
     if ($args[0] -eq 'Command') {
