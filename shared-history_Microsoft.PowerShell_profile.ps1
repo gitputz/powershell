@@ -39,7 +39,7 @@ Set-PSReadLineOption -PredictionViewStyle ListView
 # PSReadline History shared across 'signed in to Microsoft' devices, autoloads in each PowerShell session
 # set the folder containing the history file to "Always keep on this device" on all machines.
 Import-Module PSReadLine
-Set-PSReadLineOption -HistorySavePath "C:\Users\user\OneDrive\PS-History\ConsoleHost__history.txt"
+Set-PSReadLineOption -HistorySavePath "C:\Users\user\OneDrive\PS-History\ConsoleHost_history.txt"
 
 # For MenuComplete
 # Set-PSReadlineKeyHandler -Chord 'Ctrl+Spacebar' -Function MenuComplete
